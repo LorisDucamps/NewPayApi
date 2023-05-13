@@ -1,0 +1,22 @@
+.feature {
+  text-align: center;
+
+  .row {
+
+    p {
+      letter-spacing: -0.012rem;
+    }
+
+  }
+
+  &__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.6rem;
+    width: 10.6rem;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: $secondary-san-juan-blue;
+  }
+}

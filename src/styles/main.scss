@@ -1,0 +1,29 @@
+@import 'abstracts/variables';
+@import 'abstracts/animations';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layouts/container';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/hero';
+@import 'layouts/partners';
+@import 'layouts/overview';
+@import 'layouts/features';
+@import 'layouts/signup';
+@import 'layouts/pricing';
+@import "layouts/about";
+
+@import 'components/logo';
+@import 'components/button';
+@import 'components/navigation';
+@import 'components/sidebar';
+@import 'components/email';
+@import 'components/overviewItems';
+@import 'components/featureItems';
+@import 'components/baseSocial';
+@import 'components/pricingItems';
+
+@import 'views/home';
+

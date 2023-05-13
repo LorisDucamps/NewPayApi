@@ -1,0 +1,42 @@
+.ready {
+  margin-bottom: 9.6rem;
+
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__lead {
+    h2 {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  &__cta {
+    flex-grow: 1;
+    margin-left: auto;
+
+    .input {
+      margin-left: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .ready {
+    .row {
+      flex-direction: column;
+    }
+
+    &__cta {
+      margin-left: inherit;
+      width: 100%;
+      margin: 0 auto;
+
+      .input {
+        margin-left: inherit;
+      }
+    }
+  }
+}

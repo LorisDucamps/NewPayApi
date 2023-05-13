@@ -1,0 +1,17 @@
+.header {
+  margin-top: 4rem;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+
+    .actions {
+      margin-left: auto;
+    }
+  }
+
+  &__icon {
+    margin-left: auto;
+    cursor: pointer;
+  }
+}
